@@ -1,3 +1,9 @@
+:root{
+    --primary-color: rgb(60,12,72);
+    --text-color: white;
+    --primary-font:'Roboto', sans-serif;
+}
+
 *{
     margin: 0%;
     text-decoration: none;
@@ -5,10 +11,11 @@
 }
 
 header{
-    background-color: rgb(60, 12, 72);
-    color: white;
+    background-color:var(--primary-color);
+    color:var(--text-color);
+    font-family:var(--primary-font);
 }
 a{
-    color: rgb(255, 255, 254);
     display: block;
+    color: var(--text-color);
 }
